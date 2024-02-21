@@ -3,12 +3,8 @@
     width:100%;
     height: 2000px;
      color: black;
-     
-     
-}
-#red{
-    color: red;
-}
+}   
+   
 #gray{
     color: gray;
 }
@@ -22,25 +18,31 @@
 }
 .inCenter{
     font-size:50px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#red{
+    color: red;
 }
 .image{
-    margin-top: -40%;
+    margin-top: -50%;
     margin-left: 45%;
     justify-content: end;
     height: 1000px ;
     width: 150%;
+    z-index: -1;
 
 }
 
-.pply{
+.apply{
     margin-top: 8%;
     background-color: red;
     border-bottom: 10px;
     color: white;
-    display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
 }
 .video{
-    background-color: red;
+    background-color: white;
     color: white;  
 
 }
@@ -124,4 +126,74 @@
     margin-left: -85%;
     font-size: 15px;
     color: rgb(17, 16, 16);
+}
+
+
+.textMain2{
+    display: flex;
+    color: brown;
+}
+
+.tex1tHead2{
+    margin-left: 5%;
+    display: flex;
+    color: brown;
+}
+.text12{
+    margin-top: 10%;
+    margin-left: -30%;
+    font-size: 15px;
+    color: rgb(17, 16, 16);
+}
+
+.tex2tHead2{
+    margin-left: 5%;
+    display: flex;
+    color: brown;
+}
+.text22{
+    margin-top: 10%;
+    margin-left: -80%;
+    font-size: 15px;
+    color: rgb(17, 16, 16);
+}
+.tex3tHead2{
+    margin-left: 5%;
+    display: flex;
+    color: brown;
+}
+.text32{
+    margin-top: 10%;
+    margin-left: -30%;
+    font-size: 15px;
+    color: rgb(17, 16, 16);
+}
+
+.icon{
+    margin-top: -1%;
+    margin-left: 20%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    position: fixed;
+  }  
+
+.swit{
+    margin-left: 3%;
+}
+.startup{
+    margin-left: 3%;
+}
+.sponsorship{
+    margin-left: 3%;
+}
+.blog{
+    margin-left: 3%
+}
+.forCompanies{
+    margin-left: 3%;
+}
+
+.applyNow{
+    margin-left: 3%;
+
 }
